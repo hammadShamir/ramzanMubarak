@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Mubarak</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- far icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <section>
+        <img class="mosque" src="img/mosque.jpg" alt="">
+        <header>
+            <a href="#" class="logo">Ramadan</a>
+            <div class="toggle"></div>
+            <ul class="nav">
+                <li><a href="#" style="--i:1"  class="active">Home</a></li>
+                <li><a href="#" style="--i:2" >About</a></li>
+                <li><a href="#" style="--i:3" >Calender</a></li>
+                <li><a href="#" style="--i:4" >Blog</a></li>
+                <li><a href="#" style="--i:5" >Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="txt">
+                <h2>Happy Ramadan Kareem</h2>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit, consectetur vero, unde nesciunt, eveniet deserunt id inventore exercitationem consequatur nostrum ex culpa aut? Debitis deserunt ipsa ducimus dolore sint.
+                </p>
+                <br>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li>
+                <a href="#"  style="--i:6"><img src="img/facebook.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"  style="--i:7"><img src="img/twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"  style="--i:8"><img src="img/instagram.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+</body>
+<script>
+    const menutoggle = document.querySelector('.toggle');
+    const navtoggle = document.querySelector('.nav');
+    menutoggle.onclick = function(){
+        menutoggle.classList.toggle('active')
+        navtoggle.classList.toggle('active')
+    }
+</script>
+</html>
